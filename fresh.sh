@@ -44,4 +44,4 @@ rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Set macOS preferences - we will run this last because this will reload the shell
-source .macos
+# source .macos
