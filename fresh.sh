@@ -26,7 +26,7 @@ mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_passwor
 # TODO: Postgres setup
 
 # Install PHP extensions with PECL
-pecl install imagick memcached redis swoole
+pecl install redis
 
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer
